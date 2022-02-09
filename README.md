@@ -1,1 +1,1 @@
-# programming-principles-2
+# Programming Principles 2
