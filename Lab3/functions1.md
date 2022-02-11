@@ -69,5 +69,6 @@ Take a guess.
 Good job, KBTU! You guessed my number in 3 guesses!
 ```
 
+14. Create a python file and import some of the functions from the above 13 tasks and try to use them.
 
 
