@@ -6,9 +6,3 @@
 2. Python Lambda
 3. Python Classes and Objects.
 4. Python Inheritance
-5. Python Iterators, Generators
-6. Python Scope
-7. Python Modules
-8. Python Dates
-9. Python Math
-10. Python JSON
