@@ -8,4 +8,3 @@
 4. Python Dates
 5. Python Math
 11. Python JSON
-12. RegEx
