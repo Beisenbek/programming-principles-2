@@ -18,4 +18,4 @@
 
 9. Write a Python program to insert spaces between words starting with capital letters.
 
-10. Write a Python program to convert a given string to snake case.
+10. Write a Python program to convert a given camel case string to snake case.
