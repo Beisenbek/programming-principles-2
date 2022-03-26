@@ -1,10 +1,21 @@
 ## Lab 9
 
-### Topics covered in this lab work
+Learn tutorial:
+* https://realpython.com/python-gui-tkinter/
+* https://codingshiksha.com/python/python-tkinter-gui-script-to-make-a-windows-paint-drawing-application-full-project-for-beginners/
 
-1. Snake 
-   1. Add two new labirint levels
-   2. Add Super food logic: when snake will eat super food, it'll move faster for 20 seconds
-   3. 
-2. Paint
+Create Paint application with tools:
+1. Pen
+2. Rectangle
+3. Circle
+4. Fill
+5. Eraser
+6. Color picker
+7. Save image
+8. Open image
+9. Pen size setup
+10. Brush
+
+<img src="images/paint.jpeg" alt="paint" style="width:280px;height:210px;" />
+
 

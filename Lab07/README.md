@@ -1,7 +1,12 @@
 ## Lab 7
 
-### Topics covered in this lab work
-image, music and drawings
+Learn tutorial: https://nerdparadise.com/programming/pygame:
+      * Getting Started
+      * Working with Images
+      * Music and Sound Effects
+      * Geometric Drawing
+      * Fonts and Text
+      * More on Input
 
 1. Create a simple clock application (only with minutes and seconds) which is synchronized with system clock. Use Mickey's right hand as minutes arrow and left - as seconds. For moving Mickey's hands you can use:
       ```pygame.transform.rotate```
