@@ -22,7 +22,7 @@ Extend example project from lecture and add the following functionality:
 
 
 ### 3 Paint.
-Extend example project from lecture and add the following functionality:
+Extend example project from https://nerdparadise.com/programming/pygame/part6 and add the following functionality:
 1. Draw rectangle
 2. Draw circle
 3. Eraser
