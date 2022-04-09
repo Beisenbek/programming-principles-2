@@ -1,21 +1,22 @@
 ## Lab 9
 
-Learn tutorial:
-* https://realpython.com/python-gui-tkinter/
-* https://codingshiksha.com/python/python-tkinter-gui-script-to-make-a-windows-paint-drawing-application-full-project-for-beginners/
+### 1. Racer
+Extend example project from Lab 8 and add following tasks:
+Extra tasks to the given tutorial:
+1. Randomly generating coins with different weights on the road
+2. Increase the speed of Enemy when the player earns `N` coins 
+3. Comment your code
 
-Create Paint application with tools:
-1. Pen
-2. Rectangle
-3. Circle
-4. Fill
-5. Eraser
-6. Color picker
-7. Save image
-8. Open image
-9. Pen size setup
-10. Brush
+### 2. Snake
+Extend example project from Lab 8 and add following tasks:
+1. Randomly generating food with different weights
+2. Foods which are disappearing after some time(timer)
+3. Comment your code
 
-<img src="images/paint.jpeg" alt="paint" style="width:280px;height:210px;" />
-
-
+### 3 Paint.
+Extend example project from Lab 8 and add following tasks:
+1. Draw square
+2. Draw right triangle
+3. Draw equilateral triangle
+4. Draw rhombus
+5. Comment your code
