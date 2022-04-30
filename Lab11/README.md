@@ -1,4 +1,4 @@
-## Lab 10 (Draft)
+## Lab 11
 
 ### 1. Based on previous task 'PhoneBook' implement following, using functions:
 1. Function that returns all records based on a pattern (example of pattern: part of name, surname, phone number)
