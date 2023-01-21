@@ -1,5 +1,4 @@
 ## Lab 1
-### Topics covered in this lab work
 
 1. install git to local PC https://git-scm.com/download/win
 2. register in github https://github.com/
