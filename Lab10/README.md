@@ -1,6 +1,6 @@
 ## Lab 10
 
-### 1. Based on PostgreSQL tutorial create PhoneBook:
+### 1. Based on PostgreSQL tutorial https://www.postgresqltutorial.com/postgresql-python/ create PhoneBook:
 
 1. Design tables for PhoneBook.
 2. Implement two ways of inserting data into the PhoneBook.
