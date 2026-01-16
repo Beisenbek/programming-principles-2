@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-This lab covers advanced Python concepts including iterators and generators, variable scope, modules, working with dates, mathematical operations, and JSON handling. These topics are essential for writing efficient and maintainable Python code.
+This practice covers advanced Python concepts including iterators and generators, variable scope, modules, working with dates, mathematical operations, and JSON handling. These topics are essential for writing efficient and maintainable Python code.
 
 ---
 
@@ -125,7 +125,7 @@ git push origin main
 
 ## 3. What You Must Complete?
 
-To pass this lab, you must:
+To pass this practice, you must:
 
 - ✅ Create iterator and generator examples
 - ✅ Demonstrate local, global, and nonlocal scope

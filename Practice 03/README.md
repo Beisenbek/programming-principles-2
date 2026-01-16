@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-This lab introduces functions, lambda expressions, and object-oriented programming concepts in Python. You will learn to write reusable code with functions, use lambda for quick operations, and understand classes and inheritance.
+This practice introduces functions, lambda expressions, and object-oriented programming concepts in Python. You will learn to write reusable code with functions, use lambda for quick operations, and understand classes and inheritance.
 
 ---
 
@@ -103,7 +103,7 @@ git push origin main
 
 ## 3. What You Must Complete?
 
-To pass this lab, you must:
+To pass this practice, you must:
 
 - ✅ Complete all function exercises from W3Schools
 - ✅ Create lambda function examples with map(), filter(), and sorted()

@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-This lab focuses on learning Python control flow structures including conditionals and loops. You will work through W3Schools exercises covering Boolean operations, if-else statements, and for loops, saving all examples to your GitHub repository.
+This practice focuses on learning Python control flow structures including conditionals and loops. You will work through W3Schools exercises covering Boolean operations, if-else statements, and for loops, saving all examples to your GitHub repository.
 
 ---
 
@@ -75,7 +75,7 @@ git push origin main
 
 ## 3. What You Must Complete?
 
-To pass this lab, you must:
+To pass this practice, you must:
 
 - ✅ Complete all sections from Boolean to For Loops
 - ✅ Finish all "Try It Yourself" exercises

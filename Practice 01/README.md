@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-This lab introduces fundamental tools for version control and Python programming. You will learn to set up Git, create a GitHub account, understand Git workflow, and begin learning Python basics through W3Schools exercises. All work must be saved to your GitHub account.
+This practice introduces fundamental tools for version control and Python programming. You will learn to set up Git, create a GitHub account, understand Git workflow, and begin learning Python basics through W3Schools exercises. All work must be saved to your GitHub account.
 
 ---
 
@@ -112,7 +112,7 @@ All example code from W3Schools and GitHowTo must be saved to your GitHub accoun
 
 ## 3. What You Must Complete?
 
-To pass this lab, you must:
+To pass this practice, you must:
 
 - ✅ Install Git successfully and verify installation
 - ✅ Create a GitHub account with a repository for this course

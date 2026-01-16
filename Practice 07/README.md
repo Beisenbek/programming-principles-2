@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-This lab introduces game development using Pygame. You will learn graphics, input handling, and animations by creating three classic games. This part focuses on basic concepts and implementation.
+This practice introduces game development using Pygame. You will learn graphics, input handling, and animations by creating three classic games. This part focuses on basic concepts and implementation.
 
 ---
 
@@ -159,7 +159,7 @@ git push origin main
 
 ## 4. What You Must Complete?
 
-To pass this lab, you must:
+To pass this practice, you must:
 
 - ✅ Complete Mickey's Clock application with working clock hands
 - ✅ Implement Music Player with all keyboard controls

@@ -13,7 +13,7 @@
     - a method `move` to change these coordinates
     - a method `dist` that computes the distance between 2 points
 
-5. Create a bank account class that has attributes `owner`, `balance` and two methods `deposit` and `withdraw`. Withdrawals may not exceed the available balance. Instantiate your class, make several deposits and withdrawals, and test to make sure the account can't be overdrawn.
+5. Create a bank account class that has attributes `owner`, `balance` and two methods `deposit` and `withdraw`. Withdrawals may not exceed the avaipracticele balance. Instantiate your class, make several deposits and withdrawals, and test to make sure the account can't be overdrawn.
 ```python
 class Account:
     pass

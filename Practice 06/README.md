@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-This lab focuses on working with files and directories in Python. You will learn to read, write, create, and delete files, manage directories, and understand Python's built-in functions. These skills are essential for data processing and system automation.
+This practice focuses on working with files and directories in Python. You will learn to read, write, create, and delete files, manage directories, and understand Python's built-in functions. These skills are essential for data processing and system automation.
 
 ---
 
@@ -115,7 +115,7 @@ git push origin main
 
 ## 3. What You Must Complete?
 
-To pass this lab, you must:
+To pass this practice, you must:
 
 - ✅ Complete all file handling exercises
 - ✅ Create examples for read, write, append, and delete operations

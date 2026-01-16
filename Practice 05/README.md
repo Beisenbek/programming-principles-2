@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-This lab focuses on mastering regular expressions in Python. You will learn to search, match, find, and replace text patterns using Python's `re` module. Practical exercises include parsing receipt data from the provided `row.txt` file.
+This practice focuses on mastering regular expressions in Python. You will learn to search, match, find, and replace text patterns using Python's `re` module. Practical exercises include parsing receipt data from the provided `row.txt` file.
 
 ---
 
@@ -93,7 +93,7 @@ git push origin main
 
 ## 3. What You Must Complete?
 
-To pass this lab, you must:
+To pass this practice, you must:
 
 - ✅ Complete all RegEx sections from W3Schools
 - ✅ Create examples for each regex function (search, findall, split, sub)
