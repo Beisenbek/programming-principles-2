@@ -1,4 +1,4 @@
-# Lab 4: Python Advanced Topics - Iterators, Modules, Dates, Math, and JSON
+# Practice 4: Python Advanced Topics - Iterators, Modules, Dates, Math, and JSON
 
 ## 1. Objective
 
@@ -82,7 +82,7 @@ Organize your code in GitHub:
 
 **Repository Structure**:
 ```
-Lab4/
+Practice4/
 ├── iterators_generators/
 │   ├── iterators_basics.py
 │   ├── create_iterator.py
@@ -117,7 +117,7 @@ Lab4/
 **Commit Instructions**:
 ```bash
 git add .
-git commit -m "Add Lab4 - Python iterators, generators, scope, modules, dates, math, and JSON"
+git commit -m "Add Practice4 - Python iterators, generators, scope, modules, dates, math, and JSON"
 git push origin main
 ```
 

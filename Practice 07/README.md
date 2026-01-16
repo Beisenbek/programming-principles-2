@@ -1,4 +1,4 @@
-# Lab 7: Game Development with Pygame - Part 1
+# Practice 7: Game Development with Pygame - Part 1
 
 ## 1. Objective
 
@@ -44,7 +44,7 @@ Start with the following tutorials:
 
 **Repository Structure**:
 ```
-Lab7/
+Practice7/
 ├── mickeys_clock/
 │   ├── main.py
 │   ├── clock.py
@@ -80,7 +80,7 @@ Lab7/
 
 **Repository Structure**:
 ```
-Lab7/
+Practice7/
 ├── music_player/
 │   ├── main.py
 │   ├── player.py
@@ -111,7 +111,7 @@ Lab7/
 
 **Repository Structure**:
 ```
-Lab7/
+Practice7/
 ├── moving_ball/
 │   ├── main.py
 │   ├── ball.py
@@ -124,7 +124,7 @@ Lab7/
 
 **Complete Repository Structure**:
 ```
-Lab7/
+Practice7/
 ├── mickeys_clock/
 │   ├── main.py
 │   ├── clock.py
@@ -151,7 +151,7 @@ Lab7/
 echo "pygame>=2.0.0" > requirements.txt
 
 git add .
-git commit -m "Add Lab7 - Pygame games: Mickey's clock, music player, moving ball"
+git commit -m "Add Practice7 - Pygame games: Mickey's clock, music player, moving ball"
 git push origin main
 ```
 

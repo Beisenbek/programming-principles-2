@@ -1,4 +1,4 @@
-# Lab 3: Python Functions and Object-Oriented Programming
+# Practice 3: Python Functions and Object-Oriented Programming
 
 ## 1. Objective
 
@@ -68,7 +68,7 @@ Organize your code in GitHub:
 
 **Repository Structure**:
 ```
-Lab3/
+Practice3/
 ├── functions/
 │   ├── basic_functions.py
 │   ├── function_arguments.py
@@ -95,7 +95,7 @@ Lab3/
 **Commit Instructions**:
 ```bash
 git add .
-git commit -m "Add Lab3 - Python functions, lambda, classes, and inheritance"
+git commit -m "Add Practice3 - Python functions, lambda, classes, and inheritance"
 git push origin main
 ```
 

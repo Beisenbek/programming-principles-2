@@ -1,4 +1,4 @@
-# Lab 6: Python File Handling and Built-in Functions
+# Practice 6: Python File Handling and Built-in Functions
 
 ## 1. Objective
 
@@ -54,7 +54,7 @@ Organize your code in GitHub:
 
 **Repository Structure**:
 ```
-Lab6/
+Practice6/
 ├── file_handling/
 │   ├── read_files.py
 │   ├── write_files.py
@@ -84,7 +84,7 @@ Lab6/
 **Commit Instructions**:
 ```bash
 git add .
-git commit -m "Add Lab6 - Python file handling and built-in functions"
+git commit -m "Add Practice6 - Python file handling and built-in functions"
 git push origin main
 ```
 

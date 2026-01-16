@@ -1,4 +1,4 @@
-## Lab 8
+## Practice 8
 
 ### 1. Racer
 Extend example project from lecture and finish following tutorials:

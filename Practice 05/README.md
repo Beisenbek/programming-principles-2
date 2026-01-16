@@ -1,4 +1,4 @@
-# Lab 5: Python Regular Expressions (RegEx)
+# Practice 5: Python Regular Expressions (RegEx)
 
 ## 1. Objective
 
@@ -61,7 +61,7 @@ Organize your code in GitHub:
 
 **Repository Structure**:
 ```
-Lab5/
+Practice5/
 ├── regex_basics/
 │   ├── metacharacters.py
 │   ├── special_sequences.py
@@ -85,7 +85,7 @@ Lab5/
 **Commit Instructions**:
 ```bash
 git add .
-git commit -m "Add Lab5 - Python RegEx and receipt parsing examples"
+git commit -m "Add Practice5 - Python RegEx and receipt parsing examples"
 git push origin main
 ```
 

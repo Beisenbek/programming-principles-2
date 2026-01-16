@@ -1,4 +1,4 @@
-# Lab 2: Python Control Flow Basics
+# Practice 2: Python Control Flow Basics
 
 ## 1. Objective
 
@@ -44,7 +44,7 @@ Organize and save all code examples to your GitHub repository:
 
 **Repository Structure**:
 ```
-Lab2/
+Practice2/
 ├── boolean/
 │   ├── boolean_intro.py
 │   ├── boolean_comparison.py
@@ -67,7 +67,7 @@ Lab2/
 **Commit Instructions**:
 ```bash
 git add .
-git commit -m "Add Lab2 - Python control flow examples (boolean, if-else, loops)"
+git commit -m "Add Practice2 - Python control flow examples (boolean, if-else, loops)"
 git push origin main
 ```
 
@@ -92,7 +92,7 @@ To pass this lab, you must:
 If you encounter issues:
 
 - **Python Syntax**: Verify your code at [https://www.w3schools.com/python/trypython.asp](https://www.w3schools.com/python/trypython.asp)
-- **Git Issues**: Refer to Lab 1 resources or [Git Documentation](https://git-scm.com/doc)
+- **Git Issues**: Refer to Practice 1 resources or [Git Documentation](https://git-scm.com/doc)
 - **Understanding Concepts**: Re-read the tutorial or ask during practice classes
 
 ---

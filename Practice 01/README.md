@@ -1,4 +1,4 @@
-# Lab 1
+# Practice 1
 
 ## 1. Objective
 
@@ -92,7 +92,7 @@ All example code from W3Schools and GitHowTo must be saved to your GitHub accoun
 **Steps**:
 1. Create a folder structure in your repository:
    ```
-   Lab1/
+   Practice1/
    ├── python-basics/
    │   ├── hello_world.py
    │   ├── variables.py
@@ -103,7 +103,7 @@ All example code from W3Schools and GitHowTo must be saved to your GitHub accoun
 2. Commit all changes with clear commit messages:
    ```bash
    git add .
-   git commit -m "Add Lab1 Python basics examples"
+   git commit -m "Add Practice1 Python basics examples"
    git push origin main
    ```
 3. Submit your GitHub repository link in MS Teams
