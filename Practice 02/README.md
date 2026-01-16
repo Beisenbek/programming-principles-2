@@ -98,7 +98,7 @@ If you encounter issues:
 ---
 
 ## 5. Problem set for practice
- [Problem set 02] ()
+🔗 [Problem set 02] (http://ejudge.kz/new-client?contest_id=702)
 
 
 ## 6. Resources
