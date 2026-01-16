@@ -1,4 +1,4 @@
-# Lab Work Login Instructions
+# Ejudge Login Instructions
 
 Each student must log in to the system using the following credentials format:
 
