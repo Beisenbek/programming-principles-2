@@ -137,7 +137,7 @@ If you encounter issues:
 ---
 
 ## 5. Problem set for practice
- [Problem set 01] (http://ejudge.kz/new-client?contest_id=701)
+ 🔗 [Problem set 01] (http://ejudge.kz/new-client?contest_id=701)
 
 ## 6. Resources
 
