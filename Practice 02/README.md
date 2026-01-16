@@ -97,7 +97,11 @@ If you encounter issues:
 
 ---
 
-## 5. Resources
+## 5. Problem set for practice
+ [Problem set 02] ()
+
+
+## 6. Resources
 
 - 📚 [W3Schools Python Tutorial](https://www.w3schools.com/python/)
 - 📚 [Python Official Documentation](https://docs.python.org/3/tutorial/)

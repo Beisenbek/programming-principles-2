@@ -136,7 +136,10 @@ If you encounter issues:
 
 ---
 
-## 5. Resources
+## 5. Problem set for practice
+ [Problem set 01] (http://ejudge.kz/new-client?contest_id=701)
+
+## 6. Resources
 
 - 📚 [Git Documentation](https://git-scm.com/doc)
 - 📚 [GitHub Guides](https://guides.github.com)
