@@ -2,14 +2,14 @@
 
 Each student must log in to the system using the following credentials format:
 
-- **Login**: `PP1_{STUDENT_ID}`
+- **Login**: `PP2_{STUDENT_ID}`
 - **Password**: `{STUDENT_ID}`
 
 ### Example
 
 For a student with the ID `12BDXX077`:
 
-- **Login**: `PP1_12BDXX077`
+- **Login**: `PP2_12BDXX077`
 - **Password**: `12BDXX077`
 
 > ⚠️ **Important:**  
