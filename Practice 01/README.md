@@ -146,7 +146,7 @@ After setting up your environment, go to the online judge system and solve the r
 - Login with the credentials provided by your instructor  
 👉 **[How to login](./lab-login-instructions.md)**
 - Solve and submit the assigned tasks
-- Submit only `.cpp` files that compile and run without errors
+- Submit only `.py` files that compile and run without errors
 
 ## 6. Resources
 
