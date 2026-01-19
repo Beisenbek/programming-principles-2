@@ -81,13 +81,13 @@ Read and complete exercises from W3Schools Python Tutorial (HOME to Python Strin
 **Instructions**:
 - Read each section carefully
 - Complete all exercises and "Try It Yourself" examples
-- Save all example code to `.py` files in your repository
+- Save up to 5 example code to `.py` files in your repository
 
 ---
 
 ### 2.5 Save All Examples to GitHub
 
-All example code from W3Schools and GitHowTo must be saved to your GitHub account:
+Up to 5 example codes for each topic from [См. раздел "Установка"]( #Topics to Cover) from W3Schools have to saved to your GitHub account:
 
 **Steps**:
 1. Create a folder structure in your repository:
@@ -106,7 +106,6 @@ All example code from W3Schools and GitHowTo must be saved to your GitHub accoun
    git commit -m "Add Practice1 Python basics examples"
    git push origin main
    ```
-3. Submit your GitHub repository link in MS Teams
 
 ---
 
