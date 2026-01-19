@@ -67,7 +67,7 @@ Read and complete exercises from W3Schools Python Tutorial (HOME to Python Strin
 
 🔗 **W3Schools Python**: [https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)
 
-# **Topics to Cover**:
+# Topics to Cover:
 - HOME
 - Getting Started
 - Syntax
