@@ -67,7 +67,7 @@ Read and complete exercises from W3Schools Python Tutorial (HOME to Python Strin
 
 🔗 **W3Schools Python**: [https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)
 
-**Topics to Cover**:
+#**Topics to Cover**:
 - HOME
 - Getting Started
 - Syntax
@@ -87,7 +87,7 @@ Read and complete exercises from W3Schools Python Tutorial (HOME to Python Strin
 
 ### 2.5 Save All Examples to GitHub
 
-Up to 5 example codes for each topic from [См. раздел "Установка"]( #Topics to Cover) from W3Schools have to saved to your GitHub account:
+Up to 5 example codes for each topic from [see "Topics to Cover"]( #Topics to Cover) from W3Schools have to saved to your GitHub account:
 
 **Steps**:
 1. Create a folder structure in your repository:
