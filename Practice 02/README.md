@@ -83,7 +83,7 @@ To pass this practice, you must:
 - ✅ Push code to GitHub with clear commit messages
 - ✅ Make at least 3 meaningful commits
 
-**Deadline**: check MS Teams announcements
+**Deadline**: Before Practice 03.
 
 ---
 
