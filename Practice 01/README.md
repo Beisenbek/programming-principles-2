@@ -120,7 +120,7 @@ To pass this practice, you must:
 - ✅ Save all Python examples to your GitHub repository
 - ✅ Make at least 5 meaningful commits with clear messages
 
-**Deadline**: check MS Teams announcements
+**Deadline**: Before Practice 02.
 
 ---
 
