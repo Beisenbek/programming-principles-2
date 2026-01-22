@@ -89,7 +89,7 @@ Read and complete exercises from W3Schools Python Tutorial (HOME to Python Strin
 
 ### 2.5 Save All Examples to GitHub
 
-Up to 5 example codes for each topic [see "Topics to Cover"](#topics-to-cover) from W3Schools have to be saved to your GitHub account:
+Up to 5 example codes for each topic from W3Schools ([see "Topics to Cover"](#topics-to-cover)) have to be saved to your GitHub account:
 
 **Steps**:
 1. Create a folder structure in your repository:
