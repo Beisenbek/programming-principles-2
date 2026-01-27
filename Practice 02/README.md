@@ -33,14 +33,14 @@ Read and complete exercises from W3Schools Python Tutorial (Boolean to For loops
 **Instructions**:
 - Read each section carefully
 - Complete all exercises and "Try It Yourself" examples
-- Save all example code to `.py` files in your repository
+- Save all (at least 5 examples or all examples if there are less than 5) example code to `.py` files in your repository
 - Make sure your code is properly commented
 
 ---
 
 ### 2.2 Save Examples to GitHub
 
-Organize and save all code examples to your GitHub repository:
+Organize and save all (at least 5 examples or all examples if there are less than 5)  code examples to your GitHub repository:
 
 **Repository Structure**:
 ```
