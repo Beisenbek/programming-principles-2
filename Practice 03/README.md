@@ -67,7 +67,7 @@ By the end of this practice, you should be able to:
 
 ### Task 4: Learn Python Inheritance
 
-**Resource**: [W3Schools Python Inheritance](https://www.w3schools.com/python/python_inheritance.asp) and [Real Python OOP Guide](https://realpython.com/object-oriented-programming-oop-in-python-3/)
+**Resource**: [W3Schools Python Inheritance](https://www.w3schools.com/python/python_inheritance.asp)
 
 **Topics to Master**:
 - Parent and child class relationships
