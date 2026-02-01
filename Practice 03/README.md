@@ -1,79 +1,98 @@
 # Practice 3: Python Functions and Object-Oriented Programming
 
-## 1. Objective
+## Overview
 
-This practice introduces functions, lambda expressions, and object-oriented programming concepts in Python. You will learn to write reusable code with functions, use lambda for quick operations, and understand classes and inheritance.
+This practice focuses on mastering Python functions, lambda expressions, and object-oriented programming (OOP) concepts. You'll learn to create reusable code, perform quick operations with lambdas, and build classes with inheritance.
 
----
+## Learning Objectives
 
-## 2. Tasks
-
-### 2.1 Learn Python Functions from W3Schools
-
-Read and complete exercises from W3Schools Python Tutorial:
-
-🔗 **W3Schools Python**: [https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)
-
-**Topics to Cover**:
-- Functions: Definition, Arguments, Return Values
-- *args and **kwargs
-- Default Parameter Value
-- Passing Lists as Arguments
-- Function Documentation
-
-**Instructions**:
-- Read each section and complete all exercises
-- Create practical examples demonstrating each concept
-- Comment your code thoroughly
+By the end of this practice, you should be able to:
+- Define and use functions with various argument types
+- Apply lambda functions with built-in functions like `map()`, `filter()`, and `sorted()`
+- Create classes, objects, and methods
+- Implement inheritance and method overriding
+- Organize code in a proper project structure
 
 ---
 
-### 2.2 Learn Python Lambda
+## Tasks
 
-**Topics to Cover**:
-- Lambda Syntax and Usage
-- Lambda with map()
-- Lambda with filter()
-- Lambda with sorted()
-- Anonymous Functions
+### Task 1: Learn Python Functions
 
----
+**Resource**: [W3Schools Python Functions Tutorial](https://www.w3schools.com/python/python_functions.asp)
 
-### 2.3 Learn Python Classes and Objects
+**Topics to Master**:
+- Function definition and calling
+- Function arguments (positional, default, *args, **kwargs)
+- Return values and statements
+- Passing lists and other data types as arguments
+- Function documentation with docstrings
 
-**Topics to Cover**:
-- Class Definition and Objects
-- The __init__() Function
-- Object Methods
-- Self Parameter
-- Modifying and Deleting Object Properties
-- Class Variables vs Instance Variables
+**Requirements**:
+- Read all sections and complete interactive exercises on W3Schools
+- Create at least 4 practical examples showing different function concepts
+- Add clear comments explaining each example
 
----
+### Task 2: Learn Python Lambda Expressions
 
-### 2.4 Learn Python Inheritance
+**Resource**: [W3Schools Python Lambda Tutorial](https://www.w3schools.com/python/python_lambda.asp)
 
-**Topics to Cover**:
-- Parent and Child Classes
-- Using super() Function
-- Method Overriding
-- Multiple Inheritance
-- Abstract Base Classes
+**Topics to Master**:
+- Lambda syntax and basic usage
+- Using lambda with `map()` for transformation
+- Using lambda with `filter()` for selection
+- Using lambda with `sorted()` for custom sorting
+- Anonymous functions vs regular functions
 
----
+**Requirements**:
+- Complete all W3Schools exercises
+- Create at least 4 examples demonstrating lambda usage
+- Show practical applications of each lambda pattern
 
-### 2.5 Save Examples to GitHub
+### Task 3: Learn Python Classes and Objects
 
-Organize your code in GitHub:
+**Resource**: [W3Schools Python Classes Tutorial](https://www.w3schools.com/python/python_classes.asp)
 
-**Repository Structure**:
+**Topics to Master**:
+- Class definition and object creation
+- The `__init__()` constructor method
+- Instance methods and the `self` parameter
+- Class variables vs instance variables
+- Modifying and deleting object properties
+
+**Requirements**:
+- Study all class concepts on W3Schools
+- Create at least 4 examples showing different OOP features
+- Demonstrate class vs instance variable differences
+
+### Task 4: Learn Python Inheritance
+
+**Resource**: [W3Schools Python Inheritance](https://www.w3schools.com/python/python_inheritance.asp) and [Real Python OOP Guide](https://realpython.com/object-oriented-programming-oop-in-python-3/)
+
+**Topics to Master**:
+- Parent and child class relationships
+- Using `super()` to call parent methods
+- Method overriding
+- Multiple inheritance
+- Abstract base classes (optional advanced topic)
+
+**Requirements**:
+- Read inheritance tutorials
+- Create at least 4 examples showing inheritance patterns
+- Include examples of method overriding and `super()` usage
+
+### Task 5: Create and Organize Code Examples
+
+**Project Structure**:
+Create the following directory structure in your repository:
+
 ```
-Practice3/
+Practice-03/
 ├── functions/
 │   ├── basic_functions.py
 │   ├── function_arguments.py
 │   ├── return_values.py
-│   └── *args_kwargs.py
+│   └── args_kwargs.py
 ├── lambda/
 │   ├── lambda_basics.py
 │   ├── lambda_with_map.py
@@ -89,45 +108,100 @@ Practice3/
 │   ├── super_function.py
 │   ├── method_overriding.py
 │   └── multiple_inheritance.py
-└── README.md
+└── README.md (this file)
 ```
 
-**Commit Instructions**:
+**Code Requirements**:
+- Each `.py` file should contain practical, working examples
+- Include comments explaining what each code block does
+- Use descriptive variable names
+- Test all code to ensure it runs without errors
+
+**GitHub Submission**:
 ```bash
+# Stage all files
 git add .
-git commit -m "Add Practice3 - Python functions, lambda, classes, and inheritance"
+
+# Commit with descriptive message
+git commit -m "Complete Practice 3: Python functions, lambda, classes, and inheritance examples"
+
+# Push to main branch
 git push origin main
 ```
 
 ---
 
-## 3. What You Must Complete?
+## Completion Checklist
 
-To pass this practice, you must:
+To successfully complete this practice, ensure you have:
 
-- ✅ Complete all function exercises from W3Schools
-- ✅ Create lambda function examples with map(), filter(), and sorted()
-- ✅ Create a minimum of 3 classes demonstrating OOP concepts
-- ✅ Implement inheritance examples with method overriding
-- ✅ Push all code to GitHub with clear commit messages
+- [ ] Completed all W3Schools exercises for functions
+- [ ] Created working lambda examples with map, filter, and sorted
+- [ ] Built at least 3 different classes with methods
+- [ ] Implemented inheritance with method overriding
+- [ ] Organized code in the specified directory structure
+- [ ] Pushed all code to GitHub with proper commit messages
+- [ ] Submitted solutions to the online problem set
 
-**Deadline**: check MS Teams announcements
-
----
-
-## 4. 🛠 Troubleshooting
-
-If you encounter issues:
-
-- **OOP Concepts**: Review the W3Schools tutorial or check [Real Python](https://realpython.com/)
-- **Class Errors**: Test your code at [https://www.w3schools.com/python/trypython.asp](https://www.w3schools.com/python/trypython.asp)
-- **Inheritance Problems**: Ask during practice classes or office hours
+**Deadline**: Check MS Teams for the submission deadline.
 
 ---
 
-## 5. Resources
+## Online Problem Set
 
-- 📚 [W3Schools Python Functions](https://www.w3schools.com/python/python_functions.asp)
-- 📚 [W3Schools Python Lambda](https://www.w3schools.com/python/python_lambda.asp)
-- 📚 [W3Schools Python Classes](https://www.w3schools.com/python/python_classes.asp)
-- 📚 [Real Python OOP Tutorial](https://realpython.com/object-oriented-programming-oop-in-python-3/)
+Solve programming problems to apply your knowledge:
+
+🔗 **[Problem Set 03](http://ejudge.kz/new-client?contest_id=703)**
+
+- Register/Login to the ejudge system
+- Complete the problems related to functions and OOP
+- Submit your solutions before the deadline
+
+---
+
+## Troubleshooting Guide
+
+### Common Issues and Solutions
+
+**"Function not defined" errors**:
+- Check function name spelling and parentheses
+- Ensure function is defined before it's called
+- Test functions individually
+
+**Lambda syntax errors**:
+- Remember: `lambda arguments: expression`
+- No `return` statement needed in lambda
+- Test lambda expressions separately
+
+**Class instantiation problems**:
+- Verify `__init__` method signature matches object creation
+- Check `self` parameter usage in methods
+- Use [W3Schools Python Editor](https://www.w3schools.com/python/trypython.asp) to test classes
+
+**Inheritance issues**:
+- Ensure parent class is imported or defined first
+- Use `super()` correctly for parent method calls
+- Check method resolution order with `ClassName.__mro__`
+
+**General debugging**:
+- Add `print()` statements to trace execution
+- Use Python's built-in `help()` function for documentation
+- Ask questions during lab sessions or office hours
+
+### Additional Resources
+
+- 📖 [Python Official Documentation](https://docs.python.org/3/)
+- 🎥 [Corey Schafer OOP Playlist](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
+- 🛠️ [Python Tutor Visualizer](http://pythontutor.com/) - Visualize code execution
+
+---
+
+## Assessment Criteria
+
+Your practice will be evaluated based on:
+- Code correctness and functionality
+- Proper use of Python concepts
+- Code organization and documentation
+- GitHub repository structure
+- Completion of online problem set
+- Adherence to submission deadlines
