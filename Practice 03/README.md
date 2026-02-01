@@ -131,18 +131,6 @@ git push origin main
 
 ---
 
-## Completion Checklist
-
-To successfully complete this practice, ensure you have:
-
-- [ ] Completed all W3Schools exercises for functions
-- [ ] Created working lambda examples with map, filter, and sorted
-- [ ] Built at least 3 different classes with methods
-- [ ] Implemented inheritance with method overriding
-- [ ] Organized code in the specified directory structure
-- [ ] Pushed all code to GitHub with proper commit messages
-- [ ] Submitted solutions to the online problem set
-
 **Deadline**: Check MS Teams for the submission deadline.
 
 ---
@@ -176,17 +164,15 @@ Solve programming problems to apply your knowledge:
 **Class instantiation problems**:
 - Verify `__init__` method signature matches object creation
 - Check `self` parameter usage in methods
-- Use [W3Schools Python Editor](https://www.w3schools.com/python/trypython.asp) to test classes
 
 **Inheritance issues**:
 - Ensure parent class is imported or defined first
 - Use `super()` correctly for parent method calls
-- Check method resolution order with `ClassName.__mro__`
 
 **General debugging**:
 - Add `print()` statements to trace execution
 - Use Python's built-in `help()` function for documentation
-- Ask questions during lab sessions or office hours
+- Ask questions during practice sessions or office hours
 
 ### Additional Resources
 
