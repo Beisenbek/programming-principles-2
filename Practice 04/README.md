@@ -84,6 +84,18 @@ git push origin main
 
 ---
 
+## 2.6 Online Problem Set
+
+Solve programming problems to apply your knowledge:
+
+🔗 **[Problem Set 04](http://ejudge.kz/new-client?contest_id=704)**
+
+- Register/Login to the ejudge system
+- Complete the problems related to iterators, dates, math, and JSON
+- Submit your solutions before the deadline
+
+---
+
 ## 3. What You Must Complete?
 
 To pass this practice, you must:
