@@ -1,16 +1,17 @@
-# Practice 4: Python Advanced Topics - Iterators, Modules, Dates, Math, and JSON
+# Practice 4: Python Advanced Topics - Iterators, Dates, Math, and JSON
 
 ## 1. Objective
 
-This practice covers advanced Python concepts including iterators and generators, variable scope, modules, working with dates, mathematical operations, and JSON handling. These topics are essential for writing efficient and maintainable Python code.
+This practice covers advanced Python concepts including iterators and generators, working with dates, mathematical operations, and JSON handling. These topics are essential for writing efficient and maintainable Python code.
 
 ---
 
 ## 2. Tasks
 
-### 2.1 Learn Python Iterators and Generators from W3Schools
+### 2.1 Learn Python Iterators and Generators
 
 🔗 **W3Schools Python**: [https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)
+🔗 **Geeksforgeeks**: [https://www.geeksforgeeks.org/python/generators-in-python/](https://www.geeksforgeeks.org/python/generators-in-python/)
 
 **Topics to Cover**:
 - Iterators: __iter__() and __next__()
@@ -22,29 +23,7 @@ This practice covers advanced Python concepts including iterators and generators
 
 ---
 
-### 2.2 Learn Python Scope
-
-**Topics to Cover**:
-- Local, Global, and Nonlocal Scope
-- LEGB Rule (Local, Enclosing, Global, Built-in)
-- Global Keyword
-- Nonlocal Keyword
-- Scope Examples
-
----
-
-### 2.3 Learn Python Modules
-
-**Topics to Cover**:
-- Importing Modules (import, from...import)
-- Built-in Modules (math, random, datetime, json)
-- Creating Your Own Modules
-- Using __name__ == "__main__"
-- Module Packages
-
----
-
-### 2.4 Learn Python Dates and Time
+### 2.2 Learn Python Dates and Time
 
 **Topics to Cover**:
 - datetime Module
@@ -55,7 +34,7 @@ This practice covers advanced Python concepts including iterators and generators
 
 ---
 
-### 2.5 Learn Python Math
+### 2.3 Learn Python Math
 
 **Topics to Cover**:
 - Built-in Math Functions (min, max, abs, round, pow)
@@ -64,7 +43,7 @@ This practice covers advanced Python concepts including iterators and generators
 
 ---
 
-### 2.6 Learn Python JSON
+### 2.4 Learn Python JSON
 
 **Topics to Cover**:
 - JSON Syntax
@@ -76,50 +55,32 @@ This practice covers advanced Python concepts including iterators and generators
 
 ---
 
-### 2.7 Save Examples to GitHub
+---
 
-Organize your code in GitHub:
+### 2.5 Solve 4 Subtasks and Submit to GitHub
 
-**Repository Structure**:
+Complete the 4 Python exercise files in the [exercices folder](./exercices/):
+
+**Your Submission**:
+
+**Required Files to Submit**:
 ```
-Practice4/
-├── iterators_generators/
-│   ├── iterators_basics.py
-│   ├── create_iterator.py
-│   ├── generators.py
-│   └── generator_expressions.py
-├── scope/
-│   ├── local_scope.py
-│   ├── global_scope.py
-│   ├── nonlocal_scope.py
-│   └── legb_rule.py
-├── modules/
-│   ├── import_modules.py
-│   ├── create_module.py
-│   └── my_module.py
-├── dates/
-│   ├── datetime_basics.py
-│   ├── date_formatting.py
-│   ├── time_operations.py
-│   └── timezones.py
-├── math_random/
-│   ├── builtin_math.py
-│   ├── math_module.py
-│   └── random_module.py
-├── json/
-│   ├── json_parsing.py
-│   ├── json_conversion.py
-│   ├── json_files.py
-│   └── sample-data.json
-└── README.md
+Your-Repository/
+├── generators.py     # Iterator and generator exercises
+├── dates.py          # Date and time operations
+├── math.py           # Math and random operations
+└── json.py           # JSON parsing and creation
 ```
 
 **Commit Instructions**:
 ```bash
 git add .
-git commit -m "Add Practice4 - Python iterators, generators, scope, modules, dates, math, and JSON"
+git commit -m "Add Practice4 - Python iterators, generators, dates, math, and JSON"
 git push origin main
 ```
+---
+
+**Deadline**: Check MS Teams for the submission deadline.
 
 ---
 
@@ -128,8 +89,6 @@ git push origin main
 To pass this practice, you must:
 
 - ✅ Create iterator and generator examples
-- ✅ Demonstrate local, global, and nonlocal scope
-- ✅ Create and import custom modules
 - ✅ Work with dates and time operations
 - ✅ Use math and random modules
 - ✅ Parse and create JSON files
@@ -155,8 +114,6 @@ If you encounter issues:
 
 - 📚 [W3Schools Python Iterators](https://www.w3schools.com/python/python_iterators.asp)
 - 📚 [W3Schools Python Generators](https://www.w3schools.com/python/python_generators.asp)
-- 📚 [W3Schools Python Scope](https://www.w3schools.com/python/python_scope.asp)
-- 📚 [W3Schools Python Modules](https://www.w3schools.com/python/python_modules.asp)
 - 📚 [W3Schools Python Dates](https://www.w3schools.com/python/python_datetime.asp)
 - 📚 [W3Schools Python Math](https://www.w3schools.com/python/python_math.asp)
 - 📚 [W3Schools Python JSON](https://www.w3schools.com/python/python_json.asp)
