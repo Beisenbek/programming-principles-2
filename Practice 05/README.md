@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-This practice focuses on mastering regular expressions in Python. You will learn to search, match, find, and replace text patterns using Python's `re` module. Practical exercises include parsing receipt data from the provided `row.txt` file.
+This practice focuses on mastering regular expressions in Python. You will learn to search, match, find, and replace text patterns using Python's `re` module. Practical exercises include parsing receipt data from the provided `raw.txt` file.
 
 ---
 
@@ -12,7 +12,7 @@ This practice focuses on mastering regular expressions in Python. You will learn
 
 Read and complete exercises from W3Schools Python Tutorial:
 
-🔗 **W3Schools Python**: [https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)
+🔗 **W3Schools Python**: [https://www.w3schools.com/python/python_regex.asp](https://www.w3schools.com/python/python_regex.asp)
 
 **Topics to Cover**:
 - RegEx Introduction
@@ -31,13 +31,12 @@ Read and complete exercises from W3Schools Python Tutorial:
 - Read each section carefully
 - Complete all exercises and "Try It Yourself" examples
 - Practice creating different regex patterns
-- Save all example code to `.py` files
 
 ---
 
 ### 2.2 Practical Exercise: Receipt Parsing
 
-Use the provided `row.txt` file in this folder to practice receipt parsing:
+Use the provided `raw.txt` file in this folder to practice receipt parsing:
 
 **Tasks**:
 1. Extract all prices from the receipt
@@ -62,23 +61,8 @@ Organize your code in GitHub:
 **Repository Structure**:
 ```
 Practice5/
-├── regex_basics/
-│   ├── metacharacters.py
-│   ├── special_sequences.py
-│   ├── character_classes.py
-│   ├── quantifiers.py
-│   └── regex_functions.py
-├── regex_advanced/
-│   ├── search_pattern.py
-│   ├── findall_pattern.py
-│   ├── split_pattern.py
-│   ├── sub_replace.py
-│   └── flags_usage.py
-├── receipt_parsing/
-│   ├── receipt_parser.py
-│   ├── test_parser.py
-│   └── output_example.txt
-├── row.txt
+├── receipt_parser.py
+├── raw.txt
 └── README.md
 ```
 
@@ -88,6 +72,17 @@ git add .
 git commit -m "Add Practice5 - Python RegEx and receipt parsing examples"
 git push origin main
 ```
+---
+
+## 2.4 Online Problem Set
+
+Solve programming problems to apply your knowledge:
+
+🔗 **[Problem Set 05](http://ejudge.kz/new-client?contest_id=705)**
+
+- Register/Login to the ejudge system
+- Complete the problems related to iterators, dates, math, and JSON
+- Submit your solutions before the deadline
 
 ---
 
@@ -98,7 +93,7 @@ To pass this practice, you must:
 - ✅ Complete all RegEx sections from W3Schools
 - ✅ Create examples for each regex function (search, findall, split, sub)
 - ✅ Demonstrate metacharacters, special sequences, and quantifiers
-- ✅ Complete the receipt parsing exercise using `row.txt`
+- ✅ Complete the receipt parsing exercise using `raw.txt`
 - ✅ Extract and display all required information from receipts
 - ✅ Push all code to GitHub with clear commit messages
 
@@ -113,7 +108,7 @@ If you encounter issues:
 - **RegEx Testing**: Use [regex101.com](https://regex101.com/) to test patterns
 - **Python RegEx**: Test at [https://www.w3schools.com/python/trypython.asp](https://www.w3schools.com/python/trypython.asp)
 - **Pattern Issues**: Break down complex patterns into simpler parts
-- **Receipt Parsing**: Examine `row.txt` structure carefully
+- **Receipt Parsing**: Examine `raw.txt` structure carefully
 
 ---
 
