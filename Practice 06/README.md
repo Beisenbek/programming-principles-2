@@ -1,4 +1,4 @@
-````markdown
+
 # Practice 6: Python File Handling and Built-in Functions
 
 ## 1. Objective
@@ -118,4 +118,4 @@ To pass this practice you must:
 - 📚 Python `pathlib`: https://docs.python.org/3/library/pathlib.html
 - 📚 Python built-in functions: https://docs.python.org/3/library/functions.html
 - 💻 Python Try It Online: https://www.w3schools.com/python/trypython.asp
-````
+
