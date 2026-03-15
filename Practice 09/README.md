@@ -1,4 +1,4 @@
-# Practice 7: Game Development with Pygame - Part 1
+# Practice 09: Game Development with Pygame - Part 1
 
 ## 1. Objective
 

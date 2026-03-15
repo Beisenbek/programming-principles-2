@@ -1,4 +1,4 @@
-## Practice 10
+## Practice 07
 
 ### 1. Based on PostgreSQL tutorial https://www.postgresqltutorial.com/postgresql-python/ create PhoneBook:
 

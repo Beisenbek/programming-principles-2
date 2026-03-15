@@ -1,4 +1,4 @@
-## Practice 11
+## Practice 08
 
 ### 1. Based on previous task 'PhoneBook' implement following, using functions and stored procedures:
 1. Function that returns all records based on a pattern (example of pattern: part of name, surname, phone number)
