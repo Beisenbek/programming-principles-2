@@ -1,11 +1,22 @@
-## Practice 11
+## Practice 9
 
-### 1. Based on previous task 'PhoneBook' implement following, using functions and stored procedures:
-1. Function that returns all records based on a pattern (example of pattern: part of name, surname, phone number)
-2. Create procedure to insert new user by name and phone, update phone if user already exists 
-3. Create procedure to insert many new users by list of name and phone. Use loop and if statement in stored procedure. Check correctness of phone in procedure and return all incorrect data.
-4. Create function to querying data from the tables with pagination (by limit and offset)
-5. Implement procedure to deleting data from tables by username or phone
+### 1. Racer
+Extend example project from Practice 8 and add following tasks:
+Extra tasks to the given tutorial:
+1. Randomly generating coins with different weights on the road
+2. Increase the speed of Enemy when the player earns `N` coins 
+3. Comment your code
 
+### 2. Snake
+Extend example project from Practice 8 and add following tasks:
+1. Randomly generating food with different weights
+2. Foods which are disappearing after some time(timer)
+3. Comment your code
 
-
+### 3 Paint.
+Extend example project from Practice 8 and add following tasks:
+1. Draw square
+2. Draw right triangle
+3. Draw equilateral triangle
+4. Draw rhombus
+5. Comment your code

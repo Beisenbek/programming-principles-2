@@ -1,29 +1,11 @@
-## Practice 8
+## Practice 11
 
-### 1. Racer
-Extend example project from lecture and finish following tutorials:
-* https://coderslegacy.com/python/python-pygame-tutorial/
-* https://coderslegacy.com/python/pygame-tutorial-part-2/
-* https://coderslegacy.com/python/pygame-tutorial-part-3/
-
-Extra tasks to the given tutorial:
-1. Adding randomly appearing coins on the road
-2. Showing the number of collected coins in the top right corner
-6. Comment your code
-
-### 2. Snake
-Extend example project from lecture and add the following functionality:
-1. Checking for border (wall) collision and whether the snake is leaving the playing area
-2. Generate random position for food, so that it does not fall on a wall or a snake
-3. Add levels. For example, when the snake receives 3-4 foods or depending on score 
-5. Increase speed when the user passes to the next level
-6. Add counter to score and level
-6. Comment your code
+### 1. Based on previous task 'PhoneBook' implement following, using functions and stored procedures:
+1. Function that returns all records based on a pattern (example of pattern: part of name, surname, phone number)
+2. Create procedure to insert new user by name and phone, update phone if user already exists 
+3. Create procedure to insert many new users by list of name and phone. Use loop and if statement in stored procedure. Check correctness of phone in procedure and return all incorrect data.
+4. Create function to querying data from the tables with pagination (by limit and offset)
+5. Implement procedure to deleting data from tables by username or phone
 
 
-### 3 Paint.
-Extend example project from https://nerdparadise.com/programming/pygame/part6 and add the following functionality:
-1. Draw rectangle
-2. Draw circle
-3. Eraser
-4. Color selection
+
