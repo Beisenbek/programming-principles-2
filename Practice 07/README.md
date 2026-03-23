@@ -122,7 +122,7 @@ To pass this practice you must:
 
 ## 6. Resources
 
-- 📚 PostgreSQL Python Tutorial: https://www.postgresqltutorial.com/postgresql-python/
+- 📚 PostgreSQL Python Tutorial: https://neon.com/postgresql/postgresql-python/
 - 📚 psycopg2 Documentation: https://www.psycopg.org/docs/
 - 📚 PostgreSQL Official Docs: https://www.postgresql.org/docs/
 - 📚 Python `csv` Module: https://docs.python.org/3/library/csv.html
