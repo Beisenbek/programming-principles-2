@@ -1,8 +1,8 @@
-# TSIS 3: Snake Game — Database Integration & Advanced Gameplay
+# TSIS 3: Racer Game — Advanced Driving, Leaderboard & Power-Ups
 
 ## 1. Objective
 
-Extend the Snake game from Practice 10 and Practice 11 by connecting it to a PostgreSQL database for persistent leaderboards, introducing new food behaviors, power-ups, in-game obstacles, and polished game screens — all using only Pygame and psycopg2.
+Extend the Racer game from Practice 10 and Practice 11 by adding a full arcade racing experience with dynamic traffic, player power-ups, persistent leaderboards, polished game screens, and save/load settings. The focus is on building a richer Pygame racing game that goes beyond the tutorial by introducing new lane hazards, timed boosts, and progress tracking.
 
 ---
 
@@ -10,134 +10,102 @@ Extend the Snake game from Practice 10 and Practice 11 by connecting it to a Pos
 
 | Done in | Feature |
 |---|---|
-| Practice 10 | Wall / border collision detection |
-| Practice 10 | Random food placement (avoids walls and body) |
-| Practice 10 | Level progression (every N food items) |
-| Practice 10 | Speed increase per level |
-| Practice 10 | Score and level display |
-| Practice 11 | Food with different point weights |
-| Practice 11 | Food that disappears after a timer |
+| Practice 10 | Player car movement and lane-based road scrolling |
+| Practice 10 | Random coins spawning on the road |
+| Practice 10 | Coin counter display |
+| Practice 11 | Weighted coins with different values |
+| Practice 11 | Increasing enemy speed after collecting coins |
+
+**Do not re-implement anything from the list above.**
 
 ---
 
 ## 3. Tasks
 
-### 3.1 Leaderboard (PostgreSQL + psycopg2)
+### 3.1 Gameplay & Race Track
 
-Integrate the game with a PostgreSQL database to persist player results.
-
-1. **Username entry** — on the main menu screen, prompt the player to enter a username (typed via keyboard in Pygame).
-2. **Save result** — after game over, automatically save `username`, `score`, `level_reached`, and `timestamp` to the database.
-3. **Leaderboard screen** — fetch and display the Top 10 all-time scores inside the game window.
-4. **Personal best** — fetch the player's best score at game start and display it during gameplay.
-
-Suggested schema:
-```sql
-CREATE TABLE players (
-    id       SERIAL PRIMARY KEY,
-    username VARCHAR(50) UNIQUE NOT NULL
-);
-
-CREATE TABLE game_sessions (
-    id            SERIAL PRIMARY KEY,
-    player_id     INTEGER REFERENCES players(id),
-    score         INTEGER   NOT NULL,
-    level_reached INTEGER   NOT NULL,
-    played_at     TIMESTAMP DEFAULT NOW()
-);
-```
+1. **Lane hazards and safe paths** — place obstacles, oil spills, or slow-down zones in some lanes so the player must choose the safest path.
+2. **Road events** — add occasional dynamic events such as moving barriers, speed bumps, or a nitro boost strip to make the track feel alive.
 
 ---
 
-### 3.2 Poison Food
+### 3.2 Dynamic Traffic & Obstacles
 
-Add a **poison food** item (distinct color, e.g. dark red) as a new food behavior on top of the existing weighted/disappearing foods from Practice 11:
-
-- Appears randomly on the field alongside normal food.
-- If the snake eats it: **shorten the snake by 2 segments**.
-- If the snake's length drops to 1 or less after eating poison → **game over**.
+1. **Traffic cars** — spawn enemy vehicles that move downwards; collisions with traffic end the run.
+2. **Road obstacles** — include barriers, oil spills, or potholes that appear randomly and force the player to react.
+3. **Safe spawn logic** — ensure new obstacles and traffic do not spawn directly on top of the player.
+4. **Difficulty scaling** — increase traffic density and obstacle frequency as the player progresses.
 
 ---
 
-### 3.3 Power-ups
+### 3.3 Power-Ups and Boosts
 
-Spawn temporary power-up items on the field:
+Add three collectible power-ups on the road:
 
-| Power-up | Effect | Duration |
+| Power-up | Effect | Duration / Rule |
 |---|---|---|
-| Speed boost | Increases snake speed | 5 seconds |
-| Slow motion | Decreases snake speed | 5 seconds |
-| Shield | Ignores the next wall or self-collision once | Until triggered |
+| Nitro | Temporarily increases speed | 3–5 seconds |
+| Shield | Protects from one collision | until hit |
+| Repair | Restores one crash or clears one obstacle | instant |
 
 Rules:
-- Only one power-up active on the field at a time.
-- Each power-up disappears from the field after **8 seconds** if not collected.
-- Use `pygame.time.get_ticks()` to track durations.
+1. Only one power-up can be active at a time.
+2. Power-ups disappear after a timeout if not collected.
+3. Display active power-up and remaining time on screen.
 
 ---
 
-### 3.4 Obstacles
+### 3.4 Score, Distance & Leaderboard
 
-Starting from **Level 3**, static wall blocks appear inside the arena:
-
-1. Randomly place a set of wall blocks at each new level.
-2. Guarantee that the blocks do not surround or trap the snake's current position at spawn time.
-3. Collision with an obstacle block → **game over** (same as border collision).
-4. Food and power-ups must not spawn on obstacle blocks.
-
----
-
-### 3.5 Settings (JSON file)
-
-Save and load user preferences from a local `settings.json` file using Python's built-in `json` module:
-
-| Setting | Options |
-|---|---|
-| Snake color | any RGB value |
-| Grid overlay | on / off |
-| Sound | on / off |
-
-Settings are loaded on startup and saved when the user changes them in the Settings screen.
+1. **Score calculation** — combine collected coins, distance traveled, and bonuses from power-ups.
+2. **Distance meter** — show how far the player has driven and the remaining distance to finish.
+3. **Leaderboard persistence** — save top scores to a local file such as `leaderboard.json` or `scores.json`.
+4. **Username entry** — ask the player for a name before starting the game and use it for leaderboard entries.
+5. **Top 10 screen** — show the top scores inside the game with rank, name, score, and distance.
 
 ---
 
-### 3.6 Game Screens
+### 3.5 Game Screens and Settings
 
-Implement the following screens using Pygame (no external UI libraries):
+Implement the following Pygame screens without external UI libraries:
 
 1. **Main Menu** — buttons: Play, Leaderboard, Settings, Quit.
-2. **Game Over screen** — shows final score, level reached, personal best; buttons: Retry, Main Menu.
-3. **Leaderboard screen** — table with rank, username, score, level, date; button: Back.
-4. **Settings screen** — toggle grid, toggle sound, pick snake color; button: Save & Back.
+2. **Settings screen** — allow toggling sound, selecting car color, and choosing difficulty.
+3. **Game Over screen** — show score, distance, coins, and buttons: Retry, Main Menu.
+4. **Leaderboard screen** — display saved top 10 scores with a Back button.
+
+Additionally:
+- Save settings to `settings.json` and load them at startup.
+- Apply saved preferences to the game immediately.
 
 ---
 
-### 3.7 Save to GitHub
+### 3.6 Save to GitHub
 
 Example repository structure:
 ```
 TSIS3/
 ├── main.py
-├── game.py
-├── db.py
+├── racer.py
+├── ui.py
+├── persistence.py
 ├── settings.json
-├── config.py
+├── leaderboard.json
 └── assets/
-    └── (sounds, images if any)
+    └── (images, sounds if used)
 ```
 
 ---
 
 ## 4. What You Must Complete
 
-- ✅ PostgreSQL schema: `players` and `game_sessions` tables
-- ✅ Username entry on the main menu
-- ✅ Auto-save result to DB after game over
-- ✅ Leaderboard screen showing Top 10 from DB
-- ✅ Personal best displayed during gameplay
-- ✅ Poison food: shortens snake; game over if too short
-- ✅ Three power-ups with timed effects (`pygame.time.get_ticks()`)
-- ✅ Obstacle blocks from Level 3, randomly placed without trapping snake
-- ✅ `settings.json` for snake color, grid, and sound preferences
-- ✅ Four game screens: Main Menu, Game Over, Leaderboard, Settings
+- ✅ Lane hazards and dynamic road events
+- ✅ Dynamic traffic cars and random road obstacles
+- ✅ Three collectible power-ups: Nitro, Shield, Repair
+- ✅ Difficulty scaling as the player progresses
+- ✅ Persistent leaderboard saved to a local JSON file
+- ✅ Username entry and top 10 leaderboard screen
+- ✅ Settings screen with sound toggle, car color, and difficulty options
+- ✅ Save/load settings via `settings.json`
+- ✅ Main Menu, Game Over, Leaderboard, and Settings screens
 - ✅ Push to GitHub with clear commit messages
